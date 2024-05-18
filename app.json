@@ -16,7 +16,8 @@
       "infoPlist": {
         "NSCameraUsageDescription": "$(PRODUCT_NAME) necesita acceso a tu cámara.",
         "NSMicrophoneUsageDescription": "$(PRODUCT_NAME) necesita acceso a tu micrófono."
-      }
+      },
+      "bundleIdentifier": "com.anonymous.project"
     },
     "android": {
       "adaptiveIcon": {
@@ -41,6 +42,11 @@
           "microphonePermissionText": "$(PRODUCT_NAME) necesita acceso a tu micrófono."
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "07f11b8f-3f07-4941-b21c-9caeb30a09d8"
+      }
+    }
   }
 }
